@@ -23,7 +23,7 @@ public class GameImpl implements Game {
 
     public void placeToken(int column) {
         int i=5;
-        while (board[i][column] != BLANK && i >= 0)
+        while (board[i][column] != BLANK)
             i--;
         if (turn == true) {
             board[i][column] = 1;
