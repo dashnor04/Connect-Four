@@ -7,7 +7,6 @@ public class GameImpl implements Game {
     private final static char BLANK = '.';
 
     //Player can choose color
-    private static Color Player1;
     private static boolean turn = true;
 
     int[][] board;
